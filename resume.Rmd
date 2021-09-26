@@ -130,7 +130,8 @@ Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('education')
+position_data %>% 
+  print_section('education')
 ```
 
 
@@ -139,15 +140,36 @@ Selected Positions {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('positions')
+position_data %>% 
+  print_section('positions')
 ```
+
+
+Academic Articles {data-icon=book}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% 
+  print_section('academic_articles')
+```
+
 
 Selected Writing {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-position_data %>% print_section('writings')
+position_data %>% 
+  print_section('writings')
 ```
 
 
+About Me Press {data-icon=info-circle}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% 
+  print_section('about_me_press')
+```
