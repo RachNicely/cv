@@ -1,6 +1,6 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: Rachael Nicely's Resume"
+author: Rachael Nicely
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -47,18 +47,18 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](reporting-image.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> rgokool@asu.edu
+- <i class="fa fa-twitter"></i> RachNicely
+- <i class="fa fa-github"></i> github.com/RachNicely
+- <i class="fa fa-link"></i> [RachNicely.github.io](rachnicely.github.io/)
+- <i class="fa fa-phone"></i> (123) 456-7890
 
 
 
@@ -69,13 +69,11 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "SQL",                4.5,
+  "Java",               2,
+  "Python",             2,
+  "R",               3.5,
+  "MS Excel",                4.5,
 )
 build_skill_bars(skills)
 ```
@@ -85,18 +83,17 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `github.com/RachNicely/
 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- `montyhall`: R package to simulate the Monty Hall game for CPP 527
+- `RachNicely.github.io`: Personal website for CPP 527
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+See full CV at https://www.linkedin.com/in/rachael-nicely-30132bba/ for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -114,13 +111,13 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Rachael Nicely {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I am currently a data engineer at American Express, focusing on reporting on technology platform availability and change management. 
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+I’m also working toward my master’s in Program Evaluation and Data Analytics at Arizona State University! Following completion of my graduate degree, I will be seeking a position as a data analyst within a social or nonprofit organization. 
 "
 
 
