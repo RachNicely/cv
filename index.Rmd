@@ -90,7 +90,7 @@ build_skill_bars(skills)
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV on my [LinkedIn Profile](https://www.linkedin.com/in/rachael-nicely-30132bba/) for more complete list of positions and publications.
+See full CV on my [LinkedIn Profile](https://www.linkedin.com/in/rachael-nicely-30132bba/).
 
 
 
